@@ -17,3 +17,7 @@ We are currently building two products:
 We build in public and are committed to building free and open-source software (FOSS). We also seek ambitious and talented engineers to join the Founding team.
 
 It's about time we put North Korea out of Business.
+
+Learn more:
+- [Twitter](https://twitter.com/phylaxsystems)
+- [Website](https://phylax.watch)
