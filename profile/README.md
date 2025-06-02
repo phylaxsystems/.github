@@ -1,19 +1,27 @@
-```
-______ _           _              _____           _                     
-| ___ \ |         | |            /  ___|         | |                    
-| |_/ / |__  _   _| | __ ___  __ \ `--. _   _ ___| |_ ___ _ __ ___  ___ 
-|  __/| '_ \| | | | |/ _` \ \/ /  `--. \ | | / __| __/ _ \ '_ ` _ \/ __|
-| |   | | | | |_| | | (_| |>  <  /\__/ / |_| \__ \ ||  __/ | | | | \__ \
-\_|   |_| |_|\__, |_|\__,_/_/\_\ \____/ \__, |___/\__\___|_| |_| |_|___/
-              __/ |                      __/ |                          
-             |___/                      |___/                           
-```
-At Phylax Systems, we want to restore the credibility of our industry, enabling institutions and individuals to deploy capital confidently.
+![Phylax Logo](./phylax-logo.png)
 
-We are currently building two products:
-- A next-gen monitoring agent, we call Phylax, that enables developers to monitor their Dapp on any EVM chain using the affordances and tools they already know. It's the easiest way for engineers and teams to observe the live state of their dapp and instrument incident response. We are building the "Prometheus and Grafana" stack of web3.
-- A security protocol that enables Dapps to prevent hacks by censoring malicious transactions at the infrastructure level. We call it "Dapp-defined censorship". This is a fresh approach to one of the most crucial issues in our industry.
+Phylax was founded in the aftermath of the $200mm Nomad hack and is backed by $4.5mm from Nascent, Figment Capital, Robot Ventures, and other leading investors and angels.
 
-> We build in public and are committed to building free and open-source software (FOSS). It's about time we put North Korea out of Business.
+Adoption requires trust, and trust requires security.
 
-Follow us on [X](https://twitter.com/phylaxsystems)
+The Credible Layer is a network extension that enables apps to define security rules and prevents transactions from violating them. These rules are defined in Solidity, executed off-chain, and enforced on-chain.
+
+Since these rules are verifiable, apps can turn implicit security assumptions into an explicit security posture so that users can trust the apps they use.
+
+## Key Repositories
+
+This organization hosts Phylax Systems' open-source components. Key repositories include:
+
+* **[`assertion-da`](https://github.com/phylaxsystems/assertion-da)**: Assertion DA functions as a temporary data availability layer for the Phylax Credible layer. It stores and makes assertions publicly available via a JSON-RPC interface.
+* **[`assertion-examples`](https://github.com/phylaxsystems/assertion-examples)**: Contains an extensive collection of assertion examples for different use cases as well as concrete examples of previous hacks that could have been prevented with the Credible Layer.
+* **[`assertion-executor`](https://github.com/phylaxsystems/assertion-executor)**: The executor for the Phylax Credible Layer, responsible for validating assertions against transactions.
+* **[`credible-layer-contracts`](https://github.com/phylaxsystems/credible-layer-contracts)**: The on-chain contracts for the Credible Layer
+* **[`credible-layer-starter`](https://github.com/phylaxsystems/credible-layer-starter)**: A repository that contains a couple of starter projects that work out of the box.
+* **[`credible-std`](https://github.com/phylaxsystems/credible-std)**: The standard library for the Phylax Credible Layer, providing utilities and "cheatcodes" for writing assertions.
+* **[`OP-Talos`](https://github.com/phylaxsystems/OP-Talos)**: An OP Stack block builder that builds Credible Blocks.
+* **[`pcl`](https://github.com/phylaxsystems/pcl)**: A command line tool used for testing, authenticating, storing and submitting assertions.
+* **[`phoundry`](https://github.com/phylaxsystems/phoundry)**: A modified version of Foundry that supports the Credible Layer.
+
+For a comprehensive overview of the Credible Layer, please refer to the [Credible Layer documentation](https://docs.phylax.systems/).
+
+> Follow us on [X](https://twitter.com/phylaxsystems)
