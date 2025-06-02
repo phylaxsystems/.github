@@ -1,4 +1,4 @@
-![Phylax Logo](./phylax-logo.png)
+![Phylax Github Banner](./github-banner.png)
 
 Phylax was founded in the aftermath of the $200mm Nomad hack and is backed by $4.5mm from Nascent, Figment Capital, Robot Ventures, and other leading investors and angels.
 
