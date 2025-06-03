@@ -18,7 +18,6 @@ This organization hosts Phylax Systems' open-source components. Key repositories
 * **[`credible-layer-contracts`](https://github.com/phylaxsystems/credible-layer-contracts)**: The on-chain contracts for the Credible Layer
 * **[`credible-layer-starter`](https://github.com/phylaxsystems/credible-layer-starter)**: A repository that contains a couple of starter projects that work out of the box.
 * **[`credible-std`](https://github.com/phylaxsystems/credible-std)**: The standard library for the Phylax Credible Layer, providing utilities and "cheatcodes" for writing assertions.
-* **[`OP-Talos`](https://github.com/phylaxsystems/OP-Talos)**: An OP Stack block builder that builds Credible Blocks.
 * **[`pcl`](https://github.com/phylaxsystems/pcl)**: A command line tool used for testing, authenticating, storing and submitting assertions.
 * **[`phoundry`](https://github.com/phylaxsystems/phoundry)**: A modified version of Foundry that supports the Credible Layer.
 
